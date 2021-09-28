@@ -1,0 +1,18 @@
+clc;
+clear all;
+close all;
+a=5^2;
+b=3*pi;
+c=exp(a/b);
+disp(c)
+%now the 1st exercise
+a=54^3;
+b=6*pi;
+c=a/b;
+disp(c)
+d=exp(a/b);
+disp(d)
+d=sinh(d)
+d=log(d);
+disp(d)
+a=log

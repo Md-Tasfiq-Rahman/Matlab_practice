@@ -1,0 +1,10 @@
+clc;
+clear;
+close all;
+A=[3 -2 0 0;-8 53 -5 -40;0 -1 4 -1;0 -8 -1 13];
+B=[30 -120 0 48]';
+v=inv(A)*B;
+fprintf('v1= %.4f V\n',v(1,1));
+fprintf('v2= %.4f V\n',v(2,1));
+fprintf('v3= %.4f V\n',v(3,1));
+fprintf('v4= %.4f V\n',v(4,1));
